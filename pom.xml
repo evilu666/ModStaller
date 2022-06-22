@@ -199,10 +199,11 @@
 					<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
-					<fileSet>
-						<directory>${project.dir}/windows_jre</directory>
-						<outputDirectory/>
-					</fileSet>
+					<archive>
+						<manifestEntries>
+							<Multi-Release>true</Multi-Release>
+						</manifestEntries>
+					</archive>
 				</configuration>
 				<executions>
 					<execution>
