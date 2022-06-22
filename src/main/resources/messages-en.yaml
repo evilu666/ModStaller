@@ -1,0 +1,139 @@
+# Languages
+language:
+  en: English
+  de: Deutsch
+
+# Labels
+label:
+  name: Name
+  version: Version
+  status: Status
+
+# Buttons
+button:
+  cancel: Cancel
+  ok: Ok
+  done: Done
+
+# Actions
+action:
+  delete: Delete
+  install: Install
+  save: Save
+  selectFile: Select File
+  selectNamedFile: "Select ${0}"
+  import: Import
+
+# General Errors
+error:
+  noFileSelected: No file selected or selected file does not exist anymore.
+  unknown: "An unknown error has occurred: ${0}"
+  title: Error
+
+# Field validators
+validator:
+  integer:
+    invalid: Invalid integer
+    tooSmall: Value is too small
+    tooBig: Value is too big
+  file:
+    errorFileNotExists: The selected file does not exist
+    errorFolderNotExists: The selected folder does not exist
+    warnNotExists: The selected file does not exist, any missing folders will be created
+
+# TaskPanes
+taskPane:
+  modPackImport:
+    title: Import Modpack
+    tooltip: Import a modpack from a file or url
+    importFromFile: Import from file
+    importFromURL: Import from url
+    fileChooser:
+      title: Select Modpack File
+      extensionName: Modpack File
+  modPackList:
+    title: Modpacks
+    tooltip: Install, edit or delete saved modpacks
+  modList:
+    title: Mods
+    tooltip: Install or delete saved mods
+  settings:
+    title: Settings
+    tooltip: View or edit application settings
+settings:
+  group:
+    interface: Interface
+    minecraft: Minecraft
+    config: Configuration
+  label:
+    language: Language
+    styleType: Style
+    minecraftPath: Minecraft folder
+    repoPath: Mod repository folder
+    maxThreads: Max number of threads
+  tooltip:
+    language: Set the language used in the interface
+    styleType: Set the type used in the interface
+    minecraftPath: Set the path to the minecraft installation folder
+    repoPath: Set the path to the folder where downloaded mods should be stored
+    maxThreads: Set the maximum number of threads used to execute tasks in parallel
+
+streamModSource:
+  title: Downloading/Copying Mod
+  message:
+    copy: Downloading/copying mod '${0}'...
+    failed: Failed copying mod
+    done: Done
+
+task:
+  writeModToFile:
+    msg: Writing mod '${0}'...
+    failed: "Failed writing mod '${0}': ${1}"
+  failed: Task failed
+  done: Done
+  parseMod: Parsing mod file...
+  saveModFile: Saving mod file '${0}'...
+  saveMod: Saving mod '${0}'...
+  modImport:
+    title: Mod Import
+    done: Imported Mod '${0}'
+  importModPack:
+    title: Modpack Import
+    msg: Importing modpack '${0}'...
+  saveModPack:
+    title: Saving Modpack
+    msg: Saving Modpack '${0}'
+  installMod:
+    title: Installing Mod
+    msg: Installing mod '${}'...
+  installModPack:
+    title: Installing Modpack '${0}'
+    status: Installing mods...
+
+  failedMsg: "Failed: ${0}"
+
+  
+
+dialog:
+  taskList:
+    totalProgress: Total Progress
+    status: "Status: ${0}"
+
+taskListDialog:
+  task: Task
+  progress: Progress
+  status: Status
+  runningTasks: Running Tasks
+
+alert:
+  modPackInstalled:
+    title: Modpack Installed
+    msg: The modpack '${0}' has been installed successfully
+
+styleType:
+  DEFAULT: Default
+  M1L4N: M1l4n
+  LU154: Lu154
+  H4Z3: H4z3
+
+

@@ -1,0 +1,17 @@
+.root {
+  -dark                        : #27292D;
+  -standard                    : #ff4192;
+  -bright                      : #ff74af;
+  -text-color                  : #FFFEFE;
+  -highlight-effect            : dropshadow(two-pass-box, rgba(255, 255, 255, 1.0), 20, 0.5, 0, 0);
+  -warning-color               : #c29f41;
+  -error-color                 : #ff4f41;
+  -fx-focus-color              : #ff2883;
+  -fx-background               : #34383B;
+  -fx-base                     : -standard;
+  -fx-font-family              : "Roboto Light";
+  -fx-font-size                : 16px;
+  -fx-font-weight              : lighter;
+  -fx-selection-bar            : -standard;
+  -fx-selection-bar-non-focused: derive(-standard, 20%);
+}
